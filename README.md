@@ -4,6 +4,7 @@ export ZONE=
 
 
 #all commands are present in lab GSP104
+
 gcloud dataproc clusters create example-cluster \
 --region=$REGION \
 --zone=$ZONE \
